@@ -34,16 +34,10 @@
         </div>
       </div>
       <div class="navRight">
-        <button
-          type="button"
-          class="btn btn-link d-xl-block d-md-none d-lg-block"
-        >
+        <button type="button" class="btn btn-link d-none d-lg-block">
           Sign in
         </button>
-        <button
-          type="button"
-          class="btn btn-purple btn-lg d-xl-block d-md-none d-lg-block"
-        >
+        <button type="button" class="btn btn-purple btn-lg d-none d-lg-block">
           Sign up
         </button>
       </div>
@@ -74,5 +68,26 @@
       display: block;
     }
   }
+}
+@media (max-width: 576px) {
+  .btn-purple {
+    font-size: 14px;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
 }
 </style>
