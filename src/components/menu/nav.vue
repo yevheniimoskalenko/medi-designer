@@ -72,7 +72,10 @@
 @media (max-width: 576px) {
   .btn-purple {
     font-size: 14px;
+  }
+  .btn-link {
     text-decoration: none;
+    display: block;
   }
 }
 
