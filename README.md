@@ -1,4 +1,6 @@
 # medi-designer
+# ![medi-designer](./src/assets/prev.png)
+
 
 ## Project setup
 ```
