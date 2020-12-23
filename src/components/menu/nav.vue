@@ -1,12 +1,11 @@
 <template>
   <div class="navbar navbar-expand-lg navbar-light ">
-    <div class="container-fluid">
+    <div class="container-fluid wrapper-center">
       <div class="logo">
         <a class="navbar-brand" href="#">
           <img src="@/assets/logo.png" alt="logo" loading="lazy" />
         </a>
       </div>
-
       <button
         class="navbar-toggler"
         type="button"
@@ -45,6 +44,10 @@
   </div>
 </template>
 <style lang="scss" scoped>
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 .logo {
   margin-right: 100px;
 }
@@ -70,6 +73,9 @@
   }
 }
 @media (max-width: 576px) {
+  .wrapper-center {
+    padding: 0px 20px;
+  }
   .btn-purple {
     font-size: 14px;
   }
@@ -84,6 +90,9 @@
 }
 
 @media (min-width: 576px) {
+  .wrapper-center {
+    padding: 0px 30px;
+  }
   .btn-link {
     text-decoration: none;
   }
@@ -94,7 +103,6 @@
   }
 }
 
-// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .btn-link {
     text-decoration: none;
@@ -115,5 +123,8 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+  .wrapper-center {
+    padding: 0px 80px;
+  }
 }
 </style>

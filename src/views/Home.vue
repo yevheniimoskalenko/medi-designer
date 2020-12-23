@@ -17,9 +17,4 @@ export default {
   }
 };
 </script>
-<style lang="scss" scoped>
-.container-fluid {
-  padding-left: 80px;
-  padding-right: 80px;
-}
-</style>
+<style lang="scss" scoped></style>
