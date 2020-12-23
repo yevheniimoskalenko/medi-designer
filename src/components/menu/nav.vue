@@ -74,7 +74,7 @@
 }
 @media (max-width: 576px) {
   .wrapper-center {
-    padding: 0px 20px;
+    padding: 0px 0px;
   }
   .btn-purple {
     font-size: 14px;
